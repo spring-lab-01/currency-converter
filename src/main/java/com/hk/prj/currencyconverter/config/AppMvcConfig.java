@@ -1,5 +1,6 @@
-package com.hk.prj.currencyconverter;
+package com.hk.prj.currencyconverter.config;
 
+import com.hk.prj.currencyconverter.interceptor.RequestInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
